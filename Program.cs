@@ -55,6 +55,8 @@ namespace kitalalo
 
                 Console.WriteLine(new string(talalat));
             }
+
+            Console.WriteLine(tippekSzama);
         }
     }
 }
