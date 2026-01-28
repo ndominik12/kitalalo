@@ -7,6 +7,7 @@ namespace kitalalo
     {
         static void Main(string[] args)
         {
+            // Feladat 1: szavak rögzítése
             List<string> szavak = new List<string>
             {
                 "fuvola",
@@ -25,6 +26,9 @@ namespace kitalalo
                 "angyal",
                 "boglya"
             };
+            Random rnd = new Random();
+            string rejtettSzo = szavak[rnd.Next(szavak.Count)];
+
         }
     }
 }
