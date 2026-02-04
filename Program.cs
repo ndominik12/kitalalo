@@ -36,21 +36,25 @@ namespace kitalalo
             {
                 string tipp = Console.ReadLine();
 
-                try
+                if (tipp == "stop")
                 {
-                    new List<string> { "stop" }.IndexOf(tipp);
                     return;
                 }
-                catch
+
+                if (tipp.Length != 6)
                 {
+                    Console.WriteLine("Kérlek, pontosan 6 betűs szót adj meg!");
+                    continue;
                 }
 
                 tippekSzama++;
 
                 for (int i = 0; i < 6; i++)
                 {
-                    talalat[i] =
-                        (tipp[i] == rejtettSzo[i]) ? tipp[i] : talalat[i];
+                    if (tipp[i] == rejtettSzo[i])
+                    {
+                        talalat[i] = tipp[i];
+                    }
                 }
 
                 Console.WriteLine(new string(talalat));

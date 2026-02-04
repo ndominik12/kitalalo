@@ -1,0 +1,7 @@
+U:\12SzoftTeszt\kitalalo\bin\Debug\kitalalo.exe.config
+U:\12SzoftTeszt\kitalalo\bin\Debug\kitalalo.exe
+U:\12SzoftTeszt\kitalalo\bin\Debug\kitalalo.pdb
+U:\12SzoftTeszt\kitalalo\obj\Debug\kitalalo.csproj.AssemblyReference.cache
+U:\12SzoftTeszt\kitalalo\obj\Debug\kitalalo.csproj.CoreCompileInputs.cache
+U:\12SzoftTeszt\kitalalo\obj\Debug\kitalalo.exe
+U:\12SzoftTeszt\kitalalo\obj\Debug\kitalalo.pdb
